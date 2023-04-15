@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>F3 Contest 1</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <h2>New Employees</h2>
+      <form class="inputs">
+        <div class="label">
+          <label for="name">Enter Name</label>
+          <label for="profession">Enter Profession</label>
+          <label for="name">Enter Age</label>
+        </div>
+        <div class="inputs-1">
+          <input type="text" name="name" id="name-input" />
+          <input type="text" name="profession" id="profession-input" />
+          <input type="number" name="age" id="age-input" />
+        </div>
+        <div class="btn">
+          <button type="submit" id="btn">Add User</button>
+        </div>
+      </form>
+      <div id="message"></div>
+      <div id="employee_list">
+        <h3>Added Employees</h3>
+        <ul style="color: rgba(255, 255, 255, 0.5); padding-top: 15px;"  id="employeeList">
+          You have 0 Employees
+        </ul>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

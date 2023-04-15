@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  background-color: #000000;
+  color: #fbfbfb;
+}
+.main {
+  margin: 50px;
+  width: 93vw;
+  height: 100vh;
+}
+.label {
+  margin-top: 35px;
+  margin-bottom: 15px;
+  width: 78%;
+  display: flex;
+  justify-content: space-between;
+}
+.inputs-1 {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+input {
+  width: 30%;
+  height: 40px;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: transparent;
+  border: 1px solid #fbfbfb;
+}
+#btn {
+  margin-top: 20px;
+  background-color: #fbfbfb;
+  color: #000000;
+  border-radius: 5px;
+  padding: 10px 30px;
+  font-size: 20px;
+  border: transparent;
+  border: 1px solid #fbfbfb;
+  cursor: pointer;
+}
+
+#employee-list {
+  margin-top: 40px;
+  font-size: 15px;
+}
+#employees {
+  margin-top: 20px;
+}
+#message {
+  margin-top: 20px;
+}
+#employees li {
+  display: block;
+}
+.list-item {
+  padding: 10px;
+  width: 100%;
+  font-size: 15px;
+  border-radius: 10px;
+}
+.list-item span {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.delete-button {
+  background-color: #fbfbfb;
+  color: #000000;
+  padding: 5px 20px;
+  border-radius: 20px;
+  margin-left: 40px;
+  font-family: "Poppins", sans-serif;
+}
+.list-item {
+  list-style: none;
+}
+.spans {
+  list-style: none;
+  display: inline-block;
+  border: 2px solid #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
